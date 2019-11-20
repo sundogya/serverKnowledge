@@ -1,0 +1,6 @@
+build php environment(include mysql)
+apt-get install php
+(This command will also install apache2)
+apt-get install mysql-server( Ubuntu server < 18.04)
+--dpkg -i mysql-*.deb && apt-get update && apt-get install mysql-server 
+--(When Ubuntu server = 18.04, it will need you to select mysql version)
